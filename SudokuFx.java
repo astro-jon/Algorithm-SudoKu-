@@ -1165,7 +1165,7 @@ class RightPand extends StackPane{
                 buttonChange.setText("NEXT");
                 buttonChange.setBorder(nextborder);
             } else {
-                String url = "file:///D://EVCapture/vedios/courier.mp4";
+                String url = "file:///" + "The video absolute path where you download";
                 Media media = new Media(url);
                 MediaPlayer mediaPlayer = new MediaPlayer(media);
                 MediaView mediaView = new MediaView(mediaPlayer);
